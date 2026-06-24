@@ -1,0 +1,892 @@
+report_id,store_id,report_date,report_type,severity,issue_category,description,status,reported_by,embedding_model,embedding_dim
+RPT-USR-001-001,USR-001,2026-04-27,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-001-002,USR-001,2026-04-21,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-001-003,USR-001,2026-04-19,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-001-004,USR-001,2025-08-31,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-001-005,USR-001,2025-10-20,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-001-006,USR-001,2025-12-17,loss_prevention,medium,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-002-001,USR-002,2025-11-13,district_visit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-002-002,USR-002,2025-07-26,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-002-003,USR-002,2025-11-03,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-002-004,USR-002,2026-04-08,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-002-005,USR-002,2026-03-08,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-002-006,USR-002,2025-11-17,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-002-007,USR-002,2025-12-18,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-003-001,USR-003,2026-03-27,loss_prevention,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-003-002,USR-003,2025-09-15,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-003-003,USR-003,2026-04-23,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-003-004,USR-003,2025-10-20,inventory_audit,high,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-003-005,USR-003,2026-06-18,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-003-006,USR-003,2026-01-05,safety_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-003-007,USR-003,2026-02-28,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-003-008,USR-003,2026-03-29,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-003-009,USR-003,2026-05-12,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-003-010,USR-003,2026-03-17,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,open,store_manager,text-embedding-3-large,3072
+RPT-USR-003-011,USR-003,2026-04-01,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-004-001,USR-004,2025-10-11,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-004-002,USR-004,2026-04-10,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-004-003,USR-004,2025-10-11,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-004-004,USR-004,2025-12-06,loss_prevention,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-004-005,USR-004,2025-09-30,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-004-006,USR-004,2025-10-01,district_visit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-004-007,USR-004,2026-02-14,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-004-008,USR-004,2025-07-15,facilities,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-004-009,USR-004,2025-10-13,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-004-010,USR-004,2025-11-09,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-004-011,USR-004,2025-12-27,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-004-012,USR-004,2025-08-02,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-005-001,USR-005,2026-04-10,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-005-002,USR-005,2025-11-25,facilities,medium,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-005-003,USR-005,2026-03-01,loss_prevention,high,safety,Blocked emergency exit path noted during walkthrough,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-004,USR-005,2026-06-20,loss_prevention,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-005-005,USR-005,2025-09-14,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-005-006,USR-005,2025-09-18,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-007,USR-005,2026-02-19,loss_prevention,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-008,USR-005,2025-10-27,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-009,USR-005,2025-11-20,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-005-010,USR-005,2026-06-07,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-005-011,USR-005,2026-02-15,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-005-012,USR-005,2025-08-14,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-013,USR-005,2025-11-24,facilities,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-005-014,USR-005,2026-01-16,inventory_audit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-005-015,USR-005,2025-08-02,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-006-001,USR-006,2026-03-10,mystery_shop,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-006-002,USR-006,2026-02-04,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-006-003,USR-006,2025-09-16,inventory_audit,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-006-004,USR-006,2026-02-07,district_visit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-006-005,USR-006,2025-12-09,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-006-006,USR-006,2026-04-21,safety_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-006-007,USR-006,2026-04-30,inventory_audit,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-006-008,USR-006,2025-08-08,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-006-009,USR-006,2026-01-25,facilities,high,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-006-010,USR-006,2025-10-09,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-006-011,USR-006,2025-07-19,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-006-012,USR-006,2025-10-06,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-007-001,USR-007,2026-03-15,safety_audit,high,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-007-002,USR-007,2026-05-31,inventory_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-007-003,USR-007,2025-10-24,district_visit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-007-004,USR-007,2025-06-28,loss_prevention,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-007-005,USR-007,2026-01-15,mystery_shop,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-007-006,USR-007,2026-05-24,mystery_shop,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-007-007,USR-007,2025-10-25,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-007-008,USR-007,2025-08-11,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-007-009,USR-007,2025-06-27,facilities,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-007-010,USR-007,2025-09-30,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-008-001,USR-008,2025-08-31,district_visit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-008-002,USR-008,2026-01-04,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-008-003,USR-008,2025-11-11,district_visit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-008-004,USR-008,2025-12-01,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-008-005,USR-008,2026-04-25,facilities,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-009-001,USR-009,2026-02-10,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-009-002,USR-009,2026-04-11,inventory_audit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-009-003,USR-009,2026-03-19,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-009-004,USR-009,2026-03-20,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-009-005,USR-009,2026-05-29,mystery_shop,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-009-006,USR-009,2025-10-07,facilities,low,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-009-007,USR-009,2025-07-27,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-009-008,USR-009,2026-06-01,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-009-009,USR-009,2025-11-03,facilities,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-009-010,USR-009,2025-10-31,facilities,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-009-011,USR-009,2025-10-30,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-009-012,USR-009,2025-11-19,safety_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-009-013,USR-009,2025-08-31,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-010-001,USR-010,2025-10-16,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-010-002,USR-010,2025-10-13,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-010-003,USR-010,2026-02-27,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-010-004,USR-010,2025-10-05,district_visit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-010-005,USR-010,2025-07-28,inventory_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-010-006,USR-010,2026-05-14,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-010-007,USR-010,2026-01-21,mystery_shop,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-010-008,USR-010,2025-09-10,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-010-009,USR-010,2025-08-11,facilities,medium,signage,Promotional signage expired or missing on endcap displays,open,store_manager,text-embedding-3-large,3072
+RPT-USR-011-001,USR-011,2025-08-27,inventory_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-011-002,USR-011,2025-12-12,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-011-003,USR-011,2026-03-22,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-011-004,USR-011,2025-07-29,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-011-005,USR-011,2026-04-30,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-011-006,USR-011,2026-01-18,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-011-007,USR-011,2026-02-20,district_visit,high,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-011-008,USR-011,2025-08-16,facilities,high,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-011-009,USR-011,2025-10-03,inventory_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-011-010,USR-011,2026-04-07,inventory_audit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-012-001,USR-012,2025-12-05,district_visit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-012-002,USR-012,2026-04-16,district_visit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-012-003,USR-012,2025-11-02,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,store_manager,text-embedding-3-large,3072
+RPT-USR-012-004,USR-012,2026-05-29,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-012-005,USR-012,2026-02-21,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-012-006,USR-012,2025-07-09,inventory_audit,high,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-012-007,USR-012,2026-05-19,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-012-008,USR-012,2025-12-30,mystery_shop,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,store_manager,text-embedding-3-large,3072
+RPT-USR-012-009,USR-012,2026-01-24,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-012-010,USR-012,2025-11-10,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-012-011,USR-012,2026-06-03,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-013-001,USR-013,2026-05-20,loss_prevention,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-013-002,USR-013,2025-12-13,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-013-003,USR-013,2025-12-09,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-013-004,USR-013,2026-04-18,loss_prevention,medium,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-013-005,USR-013,2025-09-07,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-013-006,USR-013,2026-03-16,district_visit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-013-007,USR-013,2025-09-05,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-013-008,USR-013,2025-12-25,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-013-009,USR-013,2025-08-11,inventory_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-013-010,USR-013,2025-12-05,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-013-011,USR-013,2025-09-17,safety_audit,high,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-013-012,USR-013,2026-05-17,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-014-001,USR-014,2026-02-19,district_visit,medium,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-014-002,USR-014,2026-05-21,safety_audit,medium,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-014-003,USR-014,2026-02-14,loss_prevention,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-014-004,USR-014,2025-12-05,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-014-005,USR-014,2025-11-11,loss_prevention,high,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-014-006,USR-014,2025-07-14,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-014-007,USR-014,2025-07-28,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-014-008,USR-014,2026-06-12,district_visit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-014-009,USR-014,2025-11-29,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-014-010,USR-014,2026-06-17,inventory_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-014-011,USR-014,2026-05-16,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-015-001,USR-015,2025-12-26,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-015-002,USR-015,2026-06-22,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-015-003,USR-015,2026-01-07,mystery_shop,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-015-004,USR-015,2025-07-29,mystery_shop,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-015-005,USR-015,2025-12-01,mystery_shop,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-015-006,USR-015,2026-01-31,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-016-001,USR-016,2026-01-04,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-016-002,USR-016,2025-08-22,mystery_shop,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-016-003,USR-016,2026-06-16,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-016-004,USR-016,2025-09-06,loss_prevention,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-016-005,USR-016,2025-10-10,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-016-006,USR-016,2025-08-26,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-016-007,USR-016,2025-09-19,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-016-008,USR-016,2025-12-26,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-016-009,USR-016,2025-10-26,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-017-001,USR-017,2025-10-02,loss_prevention,medium,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-017-002,USR-017,2025-08-21,facilities,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-017-003,USR-017,2025-08-11,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-004,USR-017,2025-12-01,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-005,USR-017,2025-09-12,facilities,low,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-006,USR-017,2025-09-20,inventory_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-007,USR-017,2026-01-24,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-008,USR-017,2025-09-28,district_visit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-017-009,USR-017,2026-01-06,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-017-010,USR-017,2026-03-24,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,store_manager,text-embedding-3-large,3072
+RPT-USR-018-001,USR-018,2026-05-27,loss_prevention,high,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-018-002,USR-018,2026-06-07,district_visit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-018-003,USR-018,2025-07-08,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-018-004,USR-018,2025-08-12,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-018-005,USR-018,2026-02-22,inventory_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-018-006,USR-018,2026-06-22,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-018-007,USR-018,2026-04-09,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-018-008,USR-018,2025-07-06,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-018-009,USR-018,2026-03-15,district_visit,high,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-019-001,USR-019,2026-02-16,mystery_shop,high,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-019-002,USR-019,2025-09-22,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-019-003,USR-019,2026-05-13,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-019-004,USR-019,2025-10-20,mystery_shop,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-019-005,USR-019,2025-12-15,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-019-006,USR-019,2025-08-05,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-019-007,USR-019,2025-12-06,facilities,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-019-008,USR-019,2026-03-27,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-019-009,USR-019,2025-08-03,facilities,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-019-010,USR-019,2025-11-16,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-020-001,USR-020,2025-11-09,safety_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-020-002,USR-020,2025-08-13,district_visit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-020-003,USR-020,2026-02-13,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-020-004,USR-020,2026-03-17,facilities,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-020-005,USR-020,2025-12-21,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-020-006,USR-020,2025-08-16,district_visit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-020-007,USR-020,2026-02-18,inventory_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-020-008,USR-020,2026-03-13,inventory_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-021-001,USR-021,2026-01-31,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-021-002,USR-021,2026-06-07,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-021-003,USR-021,2026-01-27,facilities,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,store_manager,text-embedding-3-large,3072
+RPT-USR-021-004,USR-021,2025-08-09,mystery_shop,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-021-005,USR-021,2025-06-29,loss_prevention,high,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-021-006,USR-021,2025-06-29,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-021-007,USR-021,2025-08-29,mystery_shop,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-021-008,USR-021,2025-12-25,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-022-001,USR-022,2026-06-05,mystery_shop,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-022-002,USR-022,2026-01-09,facilities,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-022-003,USR-022,2025-11-20,mystery_shop,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-022-004,USR-022,2025-09-28,facilities,low,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-022-005,USR-022,2025-09-08,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-022-006,USR-022,2026-04-23,inventory_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,store_manager,text-embedding-3-large,3072
+RPT-USR-022-007,USR-022,2025-10-06,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-023-001,USR-023,2026-05-29,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-023-002,USR-023,2026-04-04,facilities,high,safety,Blocked emergency exit path noted during walkthrough,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-023-003,USR-023,2025-07-29,inventory_audit,high,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-023-004,USR-023,2026-04-27,mystery_shop,high,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-023-005,USR-023,2025-11-26,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-023-006,USR-023,2025-07-02,district_visit,medium,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-023-007,USR-023,2025-08-21,loss_prevention,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-023-008,USR-023,2025-12-02,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-023-009,USR-023,2025-08-20,inventory_audit,high,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-024-001,USR-024,2025-10-04,loss_prevention,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,store_manager,text-embedding-3-large,3072
+RPT-USR-024-002,USR-024,2025-09-25,district_visit,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-024-003,USR-024,2025-10-28,mystery_shop,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-024-004,USR-024,2026-03-02,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-024-005,USR-024,2025-07-29,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-024-006,USR-024,2026-03-31,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-024-007,USR-024,2026-01-22,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-024-008,USR-024,2026-01-21,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-024-009,USR-024,2026-03-21,mystery_shop,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-025-001,USR-025,2025-09-08,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-025-002,USR-025,2026-05-16,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-025-003,USR-025,2026-03-01,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-025-004,USR-025,2025-10-10,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-025-005,USR-025,2026-05-01,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-025-006,USR-025,2025-12-28,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-025-007,USR-025,2025-09-16,inventory_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-025-008,USR-025,2026-06-17,district_visit,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-025-009,USR-025,2025-10-08,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-025-010,USR-025,2026-02-12,safety_audit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-026-001,USR-026,2025-08-21,district_visit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-026-002,USR-026,2026-02-28,district_visit,medium,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-026-003,USR-026,2026-03-08,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-026-004,USR-026,2026-03-24,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-026-005,USR-026,2025-09-22,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-026-006,USR-026,2025-09-16,safety_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-026-007,USR-026,2026-01-13,loss_prevention,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-026-008,USR-026,2025-10-08,mystery_shop,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-027-001,USR-027,2025-10-01,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-027-002,USR-027,2025-10-28,loss_prevention,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-027-003,USR-027,2025-09-12,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-027-004,USR-027,2026-04-04,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-027-005,USR-027,2025-10-03,safety_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,store_manager,text-embedding-3-large,3072
+RPT-USR-027-006,USR-027,2025-08-11,facilities,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-027-007,USR-027,2025-10-02,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-027-008,USR-027,2025-06-30,district_visit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-028-001,USR-028,2026-02-03,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-028-002,USR-028,2026-05-07,facilities,medium,signage,Promotional signage expired or missing on endcap displays,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-028-003,USR-028,2026-05-17,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-028-004,USR-028,2025-09-06,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-028-005,USR-028,2025-10-15,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-028-006,USR-028,2026-03-29,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-028-007,USR-028,2025-06-27,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-028-008,USR-028,2026-02-07,loss_prevention,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-028-009,USR-028,2025-11-30,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-029-001,USR-029,2026-01-14,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-029-002,USR-029,2026-03-06,mystery_shop,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-029-003,USR-029,2025-12-23,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-029-004,USR-029,2026-06-19,district_visit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-029-005,USR-029,2025-09-02,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-029-006,USR-029,2025-08-26,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-029-007,USR-029,2025-09-14,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,store_manager,text-embedding-3-large,3072
+RPT-USR-030-001,USR-030,2026-01-14,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-030-002,USR-030,2026-04-21,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-030-003,USR-030,2025-07-11,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-030-004,USR-030,2026-02-25,safety_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-030-005,USR-030,2026-01-31,loss_prevention,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-030-006,USR-030,2026-01-16,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-030-007,USR-030,2025-10-31,district_visit,low,signage,Promotional signage expired or missing on endcap displays,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-030-008,USR-030,2026-02-01,loss_prevention,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-030-009,USR-030,2025-08-29,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-031-001,USR-031,2026-06-03,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-031-002,USR-031,2026-06-04,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-031-003,USR-031,2026-02-14,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-031-004,USR-031,2025-12-29,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-031-005,USR-031,2026-02-28,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-031-006,USR-031,2025-12-19,district_visit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-031-007,USR-031,2025-12-27,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-031-008,USR-031,2025-12-01,inventory_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-031-009,USR-031,2025-10-23,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-031-010,USR-031,2026-04-30,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-032-001,USR-032,2025-08-09,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-032-002,USR-032,2026-04-18,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-032-003,USR-032,2026-03-12,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-032-004,USR-032,2025-10-24,facilities,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-033-001,USR-033,2026-04-03,loss_prevention,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,store_manager,text-embedding-3-large,3072
+RPT-USR-033-002,USR-033,2025-09-27,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-033-003,USR-033,2026-05-28,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-033-004,USR-033,2025-07-04,safety_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-033-005,USR-033,2025-12-30,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-033-006,USR-033,2026-06-01,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-033-007,USR-033,2026-01-20,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-034-001,USR-034,2026-06-16,facilities,low,safety,Blocked emergency exit path noted during walkthrough,open,district_manager,text-embedding-3-large,3072
+RPT-USR-034-002,USR-034,2026-05-01,district_visit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-034-003,USR-034,2025-09-11,inventory_audit,high,signage,Promotional signage expired or missing on endcap displays,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-034-004,USR-034,2025-10-06,inventory_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-034-005,USR-034,2025-11-26,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-034-006,USR-034,2025-10-24,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-034-007,USR-034,2025-10-31,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-034-008,USR-034,2025-11-28,inventory_audit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-034-009,USR-034,2026-04-23,safety_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-034-010,USR-034,2025-07-05,mystery_shop,high,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-034-011,USR-034,2025-12-18,loss_prevention,high,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-035-001,USR-035,2025-09-27,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-035-002,USR-035,2025-12-21,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-035-003,USR-035,2026-05-16,loss_prevention,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-035-004,USR-035,2025-09-18,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-035-005,USR-035,2025-09-28,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-035-006,USR-035,2025-12-13,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-035-007,USR-035,2025-07-08,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-035-008,USR-035,2025-10-01,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-035-009,USR-035,2026-04-20,mystery_shop,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-035-010,USR-035,2025-09-15,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-036-001,USR-036,2026-04-21,inventory_audit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-036-002,USR-036,2025-09-27,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-036-003,USR-036,2025-12-13,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-036-004,USR-036,2026-03-08,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-036-005,USR-036,2026-02-22,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-036-006,USR-036,2025-12-07,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-036-007,USR-036,2026-01-26,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-036-008,USR-036,2026-01-12,facilities,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-036-009,USR-036,2026-04-04,safety_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-036-010,USR-036,2026-03-11,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-037-001,USR-037,2025-12-11,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-037-002,USR-037,2025-08-27,facilities,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-037-003,USR-037,2025-07-14,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-037-004,USR-037,2026-01-21,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-037-005,USR-037,2025-07-26,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-037-006,USR-037,2026-05-18,facilities,high,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-037-007,USR-037,2025-10-03,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-038-001,USR-038,2025-10-21,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-038-002,USR-038,2026-04-09,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-038-003,USR-038,2025-07-24,district_visit,high,signage,Promotional signage expired or missing on endcap displays,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-038-004,USR-038,2026-03-30,loss_prevention,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-038-005,USR-038,2025-12-20,loss_prevention,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-038-006,USR-038,2025-10-19,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-038-007,USR-038,2025-12-15,safety_audit,high,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-038-008,USR-038,2026-01-16,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-038-009,USR-038,2025-10-16,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-038-010,USR-038,2026-02-18,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-039-001,USR-039,2026-05-11,facilities,medium,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-039-002,USR-039,2025-10-28,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-039-003,USR-039,2026-06-04,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-039-004,USR-039,2025-10-01,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-039-005,USR-039,2026-03-30,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-039-006,USR-039,2025-12-28,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-039-007,USR-039,2025-08-16,district_visit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-040-001,USR-040,2026-01-08,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-040-002,USR-040,2026-04-15,facilities,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-040-003,USR-040,2025-12-21,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-040-004,USR-040,2026-06-08,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-040-005,USR-040,2026-06-15,safety_audit,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-040-006,USR-040,2026-04-06,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-040-007,USR-040,2026-02-24,district_visit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-040-008,USR-040,2025-10-06,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-040-009,USR-040,2025-10-26,facilities,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,store_manager,text-embedding-3-large,3072
+RPT-USR-040-010,USR-040,2026-02-01,loss_prevention,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-041-001,USR-041,2026-02-01,facilities,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-041-002,USR-041,2026-06-15,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-041-003,USR-041,2026-01-29,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-041-004,USR-041,2025-07-20,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-041-005,USR-041,2025-07-09,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-041-006,USR-041,2026-06-04,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-041-007,USR-041,2025-09-13,facilities,high,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-041-008,USR-041,2025-09-01,facilities,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-041-009,USR-041,2025-07-19,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,store_manager,text-embedding-3-large,3072
+RPT-USR-042-001,USR-042,2026-03-03,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-042-002,USR-042,2025-10-19,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-042-003,USR-042,2025-11-15,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-042-004,USR-042,2025-10-11,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-042-005,USR-042,2025-10-11,safety_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-042-006,USR-042,2026-02-12,district_visit,medium,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-042-007,USR-042,2026-03-07,district_visit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-042-008,USR-042,2026-05-09,mystery_shop,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-042-009,USR-042,2025-11-17,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-043-001,USR-043,2026-03-27,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-043-002,USR-043,2026-04-09,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-043-003,USR-043,2025-09-15,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-043-004,USR-043,2026-04-21,district_visit,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-043-005,USR-043,2025-12-14,facilities,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-043-006,USR-043,2026-04-25,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-043-007,USR-043,2026-03-19,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-043-008,USR-043,2026-01-27,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-043-009,USR-043,2025-11-30,inventory_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-043-010,USR-043,2026-05-26,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-043-011,USR-043,2025-10-05,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-043-012,USR-043,2026-05-13,safety_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-044-001,USR-044,2026-05-20,inventory_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,district_manager,text-embedding-3-large,3072
+RPT-USR-044-002,USR-044,2026-03-24,district_visit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-044-003,USR-044,2025-07-14,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-044-004,USR-044,2025-07-21,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-044-005,USR-044,2025-07-15,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-044-006,USR-044,2026-04-28,facilities,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-044-007,USR-044,2026-04-17,mystery_shop,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-044-008,USR-044,2025-08-05,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-044-009,USR-044,2025-08-30,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-044-010,USR-044,2025-08-13,inventory_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-044-011,USR-044,2026-03-31,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-044-012,USR-044,2026-06-14,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-044-013,USR-044,2025-10-10,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-044-014,USR-044,2025-10-01,facilities,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-045-001,USR-045,2025-10-05,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-045-002,USR-045,2025-09-18,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-045-003,USR-045,2026-05-27,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-045-004,USR-045,2026-03-31,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-045-005,USR-045,2026-05-17,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-045-006,USR-045,2025-09-12,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-045-007,USR-045,2026-06-02,inventory_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-045-008,USR-045,2025-10-01,inventory_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-045-009,USR-045,2025-12-10,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-046-001,USR-046,2026-01-12,loss_prevention,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-046-002,USR-046,2026-01-20,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-046-003,USR-046,2026-02-06,facilities,high,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-046-004,USR-046,2026-01-07,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-046-005,USR-046,2026-05-03,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-046-006,USR-046,2025-07-25,district_visit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-046-007,USR-046,2026-05-06,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-047-001,USR-047,2026-04-18,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-047-002,USR-047,2025-08-19,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-047-003,USR-047,2025-11-30,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-047-004,USR-047,2026-05-30,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-047-005,USR-047,2025-08-22,facilities,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-047-006,USR-047,2025-11-28,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-047-007,USR-047,2025-10-02,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-047-008,USR-047,2025-11-03,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-048-001,USR-048,2026-01-06,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-048-002,USR-048,2025-12-15,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-048-003,USR-048,2025-08-10,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-048-004,USR-048,2025-10-07,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-048-005,USR-048,2025-10-02,loss_prevention,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-048-006,USR-048,2025-07-08,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-048-007,USR-048,2025-07-26,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-048-008,USR-048,2025-07-16,safety_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-048-009,USR-048,2026-04-27,facilities,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-048-010,USR-048,2026-01-29,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-048-011,USR-048,2025-12-04,safety_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-049-001,USR-049,2025-10-28,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-049-002,USR-049,2025-07-12,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-049-003,USR-049,2026-03-28,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-049-004,USR-049,2025-09-20,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-049-005,USR-049,2025-10-12,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-049-006,USR-049,2025-09-25,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-049-007,USR-049,2025-11-17,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-049-008,USR-049,2026-02-08,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-049-009,USR-049,2026-04-27,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-050-001,USR-050,2026-01-01,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-050-002,USR-050,2025-10-05,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-050-003,USR-050,2026-01-22,facilities,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-050-004,USR-050,2025-11-15,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-050-005,USR-050,2026-04-28,mystery_shop,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-050-006,USR-050,2025-11-09,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-050-007,USR-050,2026-02-27,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,store_manager,text-embedding-3-large,3072
+RPT-USR-050-008,USR-050,2026-05-13,safety_audit,medium,signage,Promotional signage expired or missing on endcap displays,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-051-001,USR-051,2025-10-25,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-051-002,USR-051,2025-12-07,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-051-003,USR-051,2026-06-22,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-051-004,USR-051,2025-12-08,loss_prevention,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-051-005,USR-051,2026-06-12,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-052-001,USR-052,2025-08-20,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-052-002,USR-052,2025-09-29,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-052-003,USR-052,2025-11-03,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-052-004,USR-052,2025-10-06,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-052-005,USR-052,2025-08-21,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-052-006,USR-052,2025-08-03,district_visit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-052-007,USR-052,2025-08-02,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-052-008,USR-052,2025-07-09,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,store_manager,text-embedding-3-large,3072
+RPT-USR-052-009,USR-052,2026-01-04,inventory_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-052-010,USR-052,2026-04-26,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-053-001,USR-053,2026-01-09,mystery_shop,high,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-053-002,USR-053,2025-12-21,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-053-003,USR-053,2026-04-27,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-053-004,USR-053,2025-12-09,safety_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-053-005,USR-053,2026-01-12,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-053-006,USR-053,2026-06-17,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-053-007,USR-053,2026-06-07,safety_audit,medium,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-053-008,USR-053,2026-01-23,inventory_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-054-001,USR-054,2025-11-10,facilities,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-054-002,USR-054,2025-12-15,facilities,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-054-003,USR-054,2025-07-29,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-054-004,USR-054,2025-08-03,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-054-005,USR-054,2026-03-19,loss_prevention,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-055-001,USR-055,2026-06-18,district_visit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-055-002,USR-055,2026-02-17,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-055-003,USR-055,2025-11-21,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-055-004,USR-055,2026-04-29,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-055-005,USR-055,2025-10-05,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-055-006,USR-055,2026-02-01,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-055-007,USR-055,2026-01-23,loss_prevention,medium,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-055-008,USR-055,2025-09-17,inventory_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-055-009,USR-055,2025-08-02,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-056-001,USR-056,2025-10-07,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-056-002,USR-056,2025-11-20,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-056-003,USR-056,2026-05-05,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-056-004,USR-056,2026-01-19,mystery_shop,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-056-005,USR-056,2026-04-11,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-056-006,USR-056,2025-10-26,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-056-007,USR-056,2025-11-15,loss_prevention,medium,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-056-008,USR-056,2025-09-02,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-056-009,USR-056,2026-02-07,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-056-010,USR-056,2025-12-09,mystery_shop,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-056-011,USR-056,2026-03-01,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-056-012,USR-056,2026-01-07,inventory_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-057-001,USR-057,2026-06-13,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-057-002,USR-057,2026-06-05,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-057-003,USR-057,2025-11-25,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-057-004,USR-057,2025-09-19,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-057-005,USR-057,2026-04-07,mystery_shop,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-057-006,USR-057,2025-11-18,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-057-007,USR-057,2026-06-15,mystery_shop,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-057-008,USR-057,2025-09-09,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-058-001,USR-058,2025-10-01,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-058-002,USR-058,2025-09-17,mystery_shop,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-058-003,USR-058,2025-10-17,inventory_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-058-004,USR-058,2026-02-03,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-058-005,USR-058,2026-02-13,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-058-006,USR-058,2026-06-14,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-058-007,USR-058,2026-04-12,mystery_shop,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-058-008,USR-058,2026-01-10,district_visit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-058-009,USR-058,2026-03-31,safety_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-059-001,USR-059,2026-03-02,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-059-002,USR-059,2025-10-18,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-059-003,USR-059,2025-10-05,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-059-004,USR-059,2026-02-04,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-059-005,USR-059,2025-11-21,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-059-006,USR-059,2026-04-29,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-060-001,USR-060,2026-02-17,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-060-002,USR-060,2025-08-22,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-060-003,USR-060,2025-10-23,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-060-004,USR-060,2025-07-17,loss_prevention,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-060-005,USR-060,2025-11-30,inventory_audit,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-060-006,USR-060,2025-10-30,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-060-007,USR-060,2025-12-04,district_visit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-061-001,USR-061,2026-03-18,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-061-002,USR-061,2025-08-18,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-061-003,USR-061,2026-06-20,loss_prevention,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-061-004,USR-061,2025-12-14,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-061-005,USR-061,2025-07-26,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-061-006,USR-061,2025-09-20,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-061-007,USR-061,2025-11-12,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-061-008,USR-061,2026-01-27,district_visit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-061-009,USR-061,2026-03-25,safety_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-061-010,USR-061,2025-12-18,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-061-011,USR-061,2026-01-12,mystery_shop,high,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-061-012,USR-061,2025-09-13,mystery_shop,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-061-013,USR-061,2025-09-07,loss_prevention,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-062-001,USR-062,2025-12-20,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-062-002,USR-062,2026-02-11,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-062-003,USR-062,2026-02-09,district_visit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-062-004,USR-062,2025-11-17,safety_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-062-005,USR-062,2025-08-08,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-062-006,USR-062,2025-09-19,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-062-007,USR-062,2026-02-09,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-063-001,USR-063,2025-11-06,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,open,district_manager,text-embedding-3-large,3072
+RPT-USR-063-002,USR-063,2025-10-27,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-063-003,USR-063,2025-06-24,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-063-004,USR-063,2025-07-29,district_visit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-063-005,USR-063,2025-12-07,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-063-006,USR-063,2025-07-05,facilities,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-063-007,USR-063,2025-09-15,facilities,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-064-001,USR-064,2025-09-06,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-064-002,USR-064,2026-06-08,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-064-003,USR-064,2026-01-19,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,store_manager,text-embedding-3-large,3072
+RPT-USR-064-004,USR-064,2025-09-22,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-064-005,USR-064,2025-12-14,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-064-006,USR-064,2025-12-30,district_visit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-064-007,USR-064,2025-11-30,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-064-008,USR-064,2026-01-21,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-064-009,USR-064,2025-12-21,district_visit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-001,USR-065,2026-05-02,loss_prevention,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-002,USR-065,2026-06-11,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-003,USR-065,2026-01-16,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-065-004,USR-065,2026-05-30,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-005,USR-065,2025-10-30,district_visit,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,district_manager,text-embedding-3-large,3072
+RPT-USR-065-006,USR-065,2026-05-19,loss_prevention,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-065-007,USR-065,2026-05-31,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-065-008,USR-065,2026-04-14,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-009,USR-065,2025-07-12,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-065-010,USR-065,2025-08-16,inventory_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-065-011,USR-065,2026-03-17,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-065-012,USR-065,2026-04-19,facilities,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-066-001,USR-066,2025-09-20,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-066-002,USR-066,2026-01-19,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-066-003,USR-066,2026-05-12,mystery_shop,medium,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-066-004,USR-066,2026-03-26,loss_prevention,high,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-066-005,USR-066,2025-07-14,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-066-006,USR-066,2025-08-09,mystery_shop,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-066-007,USR-066,2025-07-24,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-066-008,USR-066,2026-06-07,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-066-009,USR-066,2026-06-02,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-067-001,USR-067,2026-05-20,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-067-002,USR-067,2026-03-07,loss_prevention,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-067-003,USR-067,2025-12-30,mystery_shop,high,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-067-004,USR-067,2025-07-06,facilities,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-067-005,USR-067,2025-08-13,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-067-006,USR-067,2026-04-30,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-067-007,USR-067,2026-01-22,inventory_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-067-008,USR-067,2026-01-21,district_visit,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-067-009,USR-067,2026-04-04,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-068-001,USR-068,2025-11-25,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-068-002,USR-068,2026-03-06,district_visit,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-068-003,USR-068,2026-05-28,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-068-004,USR-068,2025-07-08,facilities,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-069-001,USR-069,2026-06-16,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-069-002,USR-069,2026-02-09,facilities,high,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-069-003,USR-069,2026-03-29,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,store_manager,text-embedding-3-large,3072
+RPT-USR-069-004,USR-069,2026-05-18,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-069-005,USR-069,2025-10-06,district_visit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-069-006,USR-069,2025-07-10,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-069-007,USR-069,2026-03-03,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-070-001,USR-070,2026-03-26,district_visit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-070-002,USR-070,2026-01-25,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-070-003,USR-070,2025-11-02,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-070-004,USR-070,2026-02-17,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-070-005,USR-070,2026-01-06,facilities,low,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-070-006,USR-070,2026-06-20,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-070-007,USR-070,2026-03-29,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-070-008,USR-070,2025-10-03,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-070-009,USR-070,2025-11-27,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-070-010,USR-070,2025-10-17,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-070-011,USR-070,2026-05-13,facilities,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-071-001,USR-071,2025-10-22,loss_prevention,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-071-002,USR-071,2025-08-02,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-071-003,USR-071,2025-06-26,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-071-004,USR-071,2025-09-02,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,store_manager,text-embedding-3-large,3072
+RPT-USR-071-005,USR-071,2026-01-27,safety_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-072-001,USR-072,2025-08-11,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-072-002,USR-072,2025-11-02,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-072-003,USR-072,2025-10-11,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-072-004,USR-072,2026-01-20,inventory_audit,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-072-005,USR-072,2026-06-11,district_visit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-072-006,USR-072,2025-10-11,inventory_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-072-007,USR-072,2026-01-05,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-072-008,USR-072,2025-07-15,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-072-009,USR-072,2025-07-10,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-072-010,USR-072,2026-03-02,safety_audit,medium,signage,Promotional signage expired or missing on endcap displays,open,store_manager,text-embedding-3-large,3072
+RPT-USR-073-001,USR-073,2026-04-06,facilities,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-073-002,USR-073,2025-10-28,district_visit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-073-003,USR-073,2026-06-20,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-004,USR-073,2026-04-22,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-005,USR-073,2026-06-02,facilities,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-006,USR-073,2025-09-28,inventory_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-007,USR-073,2026-05-31,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-008,USR-073,2026-06-19,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-073-009,USR-073,2026-04-27,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-074-001,USR-074,2025-11-25,district_visit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-074-002,USR-074,2025-12-31,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-074-003,USR-074,2025-06-26,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-074-004,USR-074,2025-07-23,district_visit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-074-005,USR-074,2025-11-26,inventory_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-074-006,USR-074,2026-02-03,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-074-007,USR-074,2026-05-31,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-074-008,USR-074,2025-09-18,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-074-009,USR-074,2026-02-13,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-075-001,USR-075,2026-04-02,loss_prevention,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-075-002,USR-075,2025-11-20,loss_prevention,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-075-003,USR-075,2025-10-22,inventory_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,district_manager,text-embedding-3-large,3072
+RPT-USR-075-004,USR-075,2026-03-01,mystery_shop,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-075-005,USR-075,2025-11-02,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-075-006,USR-075,2025-09-24,safety_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-076-001,USR-076,2026-02-27,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-076-002,USR-076,2025-12-04,facilities,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-076-003,USR-076,2026-01-18,facilities,high,safety,Blocked emergency exit path noted during walkthrough,open,district_manager,text-embedding-3-large,3072
+RPT-USR-076-004,USR-076,2025-10-10,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,district_manager,text-embedding-3-large,3072
+RPT-USR-076-005,USR-076,2026-03-16,loss_prevention,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-076-006,USR-076,2026-04-12,district_visit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-076-007,USR-076,2025-11-05,mystery_shop,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-076-008,USR-076,2025-11-30,district_visit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-076-009,USR-076,2025-09-22,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-076-010,USR-076,2025-08-11,mystery_shop,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-076-011,USR-076,2026-01-05,mystery_shop,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-076-012,USR-076,2026-01-11,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-077-001,USR-077,2025-11-13,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-077-002,USR-077,2025-11-14,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-077-003,USR-077,2025-12-16,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-077-004,USR-077,2026-04-09,inventory_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-077-005,USR-077,2026-06-01,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-077-006,USR-077,2026-06-07,safety_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-077-007,USR-077,2026-02-23,inventory_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-077-008,USR-077,2025-08-18,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-077-009,USR-077,2025-09-11,district_visit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-077-010,USR-077,2026-05-22,facilities,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-078-001,USR-078,2025-10-01,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-078-002,USR-078,2026-02-02,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-078-003,USR-078,2026-04-05,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-078-004,USR-078,2025-10-23,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-078-005,USR-078,2025-09-26,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-079-001,USR-079,2026-06-01,inventory_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-079-002,USR-079,2026-03-03,inventory_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-079-003,USR-079,2025-08-25,loss_prevention,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-079-004,USR-079,2025-07-07,mystery_shop,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-079-005,USR-079,2025-10-14,inventory_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-079-006,USR-079,2025-11-24,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-079-007,USR-079,2025-10-07,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-079-008,USR-079,2025-11-26,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-079-009,USR-079,2025-11-09,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-080-001,USR-080,2026-05-04,facilities,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-080-002,USR-080,2026-02-05,district_visit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-080-003,USR-080,2025-09-02,district_visit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-080-004,USR-080,2026-05-28,district_visit,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-080-005,USR-080,2025-07-04,loss_prevention,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-080-006,USR-080,2026-06-07,loss_prevention,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-080-007,USR-080,2025-12-03,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-081-001,USR-081,2026-04-16,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-081-002,USR-081,2026-04-24,loss_prevention,low,signage,Promotional signage expired or missing on endcap displays,open,district_manager,text-embedding-3-large,3072
+RPT-USR-081-003,USR-081,2025-11-25,facilities,low,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-081-004,USR-081,2026-04-15,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-081-005,USR-081,2025-10-19,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-081-006,USR-081,2025-11-13,loss_prevention,high,customer_service,Wait times exceed SLA at service desk during weekend peak,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-081-007,USR-081,2026-05-20,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-081-008,USR-081,2025-09-21,safety_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-081-009,USR-081,2026-02-27,safety_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-082-001,USR-082,2025-10-18,district_visit,low,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-082-002,USR-082,2026-05-27,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-082-003,USR-082,2026-06-08,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-082-004,USR-082,2025-12-31,mystery_shop,low,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-082-005,USR-082,2025-10-14,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-082-006,USR-082,2026-06-16,loss_prevention,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-082-007,USR-082,2025-12-19,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-082-008,USR-082,2026-01-06,mystery_shop,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-082-009,USR-082,2025-11-01,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-083-001,USR-083,2026-05-11,loss_prevention,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-083-002,USR-083,2026-03-09,mystery_shop,high,signage,Promotional signage expired or missing on endcap displays,open,store_manager,text-embedding-3-large,3072
+RPT-USR-083-003,USR-083,2026-05-28,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-083-004,USR-083,2026-03-20,loss_prevention,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-083-005,USR-083,2025-09-17,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-083-006,USR-083,2026-02-10,mystery_shop,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,open,district_manager,text-embedding-3-large,3072
+RPT-USR-083-007,USR-083,2025-12-31,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-084-001,USR-084,2025-07-20,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-084-002,USR-084,2025-12-20,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-084-003,USR-084,2026-01-14,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-084-004,USR-084,2026-02-20,facilities,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-084-005,USR-084,2026-02-22,facilities,medium,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-084-006,USR-084,2025-11-16,district_visit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-084-007,USR-084,2025-11-26,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-085-001,USR-085,2025-07-02,inventory_audit,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-085-002,USR-085,2026-03-30,inventory_audit,medium,signage,Promotional signage expired or missing on endcap displays,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-085-003,USR-085,2025-09-07,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-085-004,USR-085,2025-09-08,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-085-005,USR-085,2026-02-18,loss_prevention,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-085-006,USR-085,2025-09-13,facilities,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-085-007,USR-085,2025-09-27,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-085-008,USR-085,2026-02-13,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-085-009,USR-085,2025-07-06,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-085-010,USR-085,2026-06-02,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-086-001,USR-086,2026-06-11,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-086-002,USR-086,2026-05-06,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-086-003,USR-086,2025-11-16,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-086-004,USR-086,2026-05-06,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,district_manager,text-embedding-3-large,3072
+RPT-USR-086-005,USR-086,2026-05-26,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-086-006,USR-086,2025-09-26,safety_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-086-007,USR-086,2025-08-09,mystery_shop,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-086-008,USR-086,2025-11-12,mystery_shop,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-087-001,USR-087,2025-09-24,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-087-002,USR-087,2026-05-14,facilities,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-087-003,USR-087,2026-06-08,facilities,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-087-004,USR-087,2025-10-27,inventory_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-087-005,USR-087,2026-04-14,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-087-006,USR-087,2025-11-21,safety_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-087-007,USR-087,2026-05-05,safety_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-088-001,USR-088,2026-05-15,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-088-002,USR-088,2026-02-11,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-088-003,USR-088,2026-02-07,inventory_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,open,district_manager,text-embedding-3-large,3072
+RPT-USR-088-004,USR-088,2025-11-24,mystery_shop,medium,signage,Promotional signage expired or missing on endcap displays,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-088-005,USR-088,2025-06-26,facilities,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-088-006,USR-088,2025-12-28,safety_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-088-007,USR-088,2026-05-27,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-088-008,USR-088,2025-11-07,safety_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-088-009,USR-088,2026-01-07,safety_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-088-010,USR-088,2025-08-14,mystery_shop,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-088-011,USR-088,2026-01-29,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-088-012,USR-088,2026-05-28,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-088-013,USR-088,2026-02-14,facilities,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-089-001,USR-089,2026-06-12,mystery_shop,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-089-002,USR-089,2025-11-24,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-089-003,USR-089,2026-04-21,safety_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-089-004,USR-089,2026-05-21,safety_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-089-005,USR-089,2026-05-01,loss_prevention,low,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-089-006,USR-089,2026-04-04,mystery_shop,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-089-007,USR-089,2025-09-27,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-090-001,USR-090,2026-04-03,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-090-002,USR-090,2025-07-25,mystery_shop,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-090-003,USR-090,2025-07-31,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-090-004,USR-090,2026-03-18,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-090-005,USR-090,2026-03-17,safety_audit,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-090-006,USR-090,2025-09-25,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-090-007,USR-090,2025-09-08,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-090-008,USR-090,2026-03-05,inventory_audit,low,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-090-009,USR-090,2025-12-18,safety_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-090-010,USR-090,2026-05-08,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-090-011,USR-090,2025-10-27,facilities,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-090-012,USR-090,2025-08-07,safety_audit,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-090-013,USR-090,2026-01-28,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-090-014,USR-090,2025-07-18,district_visit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-091-001,USR-091,2026-05-26,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-091-002,USR-091,2026-03-07,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-091-003,USR-091,2026-03-07,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-091-004,USR-091,2025-09-30,inventory_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-091-005,USR-091,2025-09-22,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-091-006,USR-091,2026-02-04,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-091-007,USR-091,2025-08-16,facilities,high,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-091-008,USR-091,2025-07-09,loss_prevention,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-091-009,USR-091,2026-04-06,mystery_shop,low,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-091-010,USR-091,2026-01-15,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-092-001,USR-092,2026-02-19,loss_prevention,low,staffing,Insufficient coverage during peak hours — checkout and service desk,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-092-002,USR-092,2025-11-11,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-092-003,USR-092,2025-09-22,district_visit,high,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-092-004,USR-092,2026-01-31,district_visit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-092-005,USR-092,2025-11-26,safety_audit,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-092-006,USR-092,2025-07-30,safety_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,store_manager,text-embedding-3-large,3072
+RPT-USR-092-007,USR-092,2025-12-09,facilities,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-092-008,USR-092,2025-09-04,loss_prevention,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,district_manager,text-embedding-3-large,3072
+RPT-USR-092-009,USR-092,2025-09-08,facilities,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-092-010,USR-092,2025-12-17,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-093-001,USR-093,2025-09-07,mystery_shop,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-093-002,USR-093,2026-05-17,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-093-003,USR-093,2025-09-26,inventory_audit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-093-004,USR-093,2025-11-17,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-093-005,USR-093,2026-05-27,inventory_audit,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-093-006,USR-093,2026-02-02,district_visit,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-093-007,USR-093,2025-08-13,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,open,district_manager,text-embedding-3-large,3072
+RPT-USR-094-001,USR-094,2026-01-23,facilities,high,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-094-002,USR-094,2025-12-12,inventory_audit,medium,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-094-003,USR-094,2026-01-14,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-094-004,USR-094,2025-11-24,facilities,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-094-005,USR-094,2025-06-28,loss_prevention,high,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-094-006,USR-094,2026-04-24,mystery_shop,low,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-094-007,USR-094,2025-09-19,mystery_shop,high,safety,Blocked emergency exit path noted during walkthrough,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-094-008,USR-094,2025-09-04,mystery_shop,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-094-009,USR-094,2026-01-26,facilities,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-094-010,USR-094,2026-01-28,facilities,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-094-011,USR-094,2026-04-09,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-094-012,USR-094,2026-03-25,mystery_shop,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-094-013,USR-094,2026-02-06,facilities,medium,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,loss_prevention,text-embedding-3-large,3072
+RPT-USR-094-014,USR-094,2026-05-23,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-095-001,USR-095,2026-03-06,mystery_shop,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-095-002,USR-095,2025-11-30,inventory_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-095-003,USR-095,2026-05-30,facilities,low,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-095-004,USR-095,2026-02-01,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-095-005,USR-095,2026-03-31,loss_prevention,medium,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-095-006,USR-095,2025-11-09,loss_prevention,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-095-007,USR-095,2025-09-11,safety_audit,low,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-095-008,USR-095,2025-08-24,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-096-001,USR-096,2025-12-11,district_visit,low,safety,Blocked emergency exit path noted during walkthrough,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-096-002,USR-096,2026-01-26,inventory_audit,medium,safety,Blocked emergency exit path noted during walkthrough,open,district_manager,text-embedding-3-large,3072
+RPT-USR-096-003,USR-096,2026-04-28,inventory_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-096-004,USR-096,2025-10-09,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-096-005,USR-096,2026-01-26,loss_prevention,low,customer_service,Wait times exceed SLA at service desk during weekend peak,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-096-006,USR-096,2025-09-18,mystery_shop,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-097-001,USR-097,2026-04-25,safety_audit,medium,shrink,Elevated shrink pattern detected near self-checkout area,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-097-002,USR-097,2026-03-29,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-097-003,USR-097,2025-09-17,district_visit,medium,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-097-004,USR-097,2025-08-26,inventory_audit,high,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-097-005,USR-097,2025-08-26,district_visit,medium,signage,Promotional signage expired or missing on endcap displays,open,district_manager,text-embedding-3-large,3072
+RPT-USR-097-006,USR-097,2026-02-11,loss_prevention,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-097-007,USR-097,2025-08-04,safety_audit,medium,signage,Promotional signage expired or missing on endcap displays,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-097-008,USR-097,2026-01-16,inventory_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-098-001,USR-098,2025-07-17,safety_audit,low,staffing,Insufficient coverage during peak hours — checkout and service desk,open,store_manager,text-embedding-3-large,3072
+RPT-USR-098-002,USR-098,2026-06-02,safety_audit,low,shrink,Elevated shrink pattern detected near self-checkout area,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-098-003,USR-098,2025-09-24,loss_prevention,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-098-004,USR-098,2026-04-05,district_visit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,open,district_manager,text-embedding-3-large,3072
+RPT-USR-098-005,USR-098,2026-06-04,facilities,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-099-001,USR-099,2026-02-26,loss_prevention,medium,safety,Blocked emergency exit path noted during walkthrough,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-099-002,USR-099,2026-02-09,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-099-003,USR-099,2025-11-06,district_visit,low,shrink,Elevated shrink pattern detected near self-checkout area,open,store_manager,text-embedding-3-large,3072
+RPT-USR-099-004,USR-099,2026-05-30,facilities,medium,signage,Promotional signage expired or missing on endcap displays,open,district_manager,text-embedding-3-large,3072
+RPT-USR-099-005,USR-099,2026-04-06,inventory_audit,low,planogram,Shelf tags misaligned with planogram — facings not compliant,open,store_manager,text-embedding-3-large,3072
+RPT-USR-099-006,USR-099,2025-07-31,loss_prevention,medium,planogram,Shelf tags misaligned with planogram — facings not compliant,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-099-007,USR-099,2025-12-07,facilities,high,inventory,Cycle count variance exceeds threshold in high-shrink categories,open,store_manager,text-embedding-3-large,3072
+RPT-USR-099-008,USR-099,2025-10-15,facilities,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-099-009,USR-099,2026-06-14,facilities,low,signage,Promotional signage expired or missing on endcap displays,in_progress,district_manager,text-embedding-3-large,3072
+RPT-USR-099-010,USR-099,2025-08-22,safety_audit,low,safety,Blocked emergency exit path noted during walkthrough,in_progress,store_manager,text-embedding-3-large,3072
+RPT-USR-099-011,USR-099,2026-05-12,district_visit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,resolved,district_manager,text-embedding-3-large,3072
+RPT-USR-100-001,USR-100,2026-04-05,safety_audit,high,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,in_progress,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-100-002,USR-100,2026-02-05,inventory_audit,low,inventory,Cycle count variance exceeds threshold in high-shrink categories,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-100-003,USR-100,2025-08-23,mystery_shop,medium,safety,Blocked emergency exit path noted during walkthrough,open,loss_prevention,text-embedding-3-large,3072
+RPT-USR-100-004,USR-100,2026-01-24,inventory_audit,medium,cleaning,Backroom and sales floor cleaning below standard — debris in aisles,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-100-005,USR-100,2026-01-15,inventory_audit,low,signage,Promotional signage expired or missing on endcap displays,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-100-006,USR-100,2025-07-29,safety_audit,medium,customer_service,Wait times exceed SLA at service desk during weekend peak,resolved,store_manager,text-embedding-3-large,3072
+RPT-USR-100-007,USR-100,2025-12-17,safety_audit,medium,equipment,Refrigeration unit temperature fluctuation logged in dairy section,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-100-008,USR-100,2026-02-04,loss_prevention,high,shrink,Elevated shrink pattern detected near self-checkout area,resolved,mystery_shopper,text-embedding-3-large,3072
+RPT-USR-100-009,USR-100,2026-01-27,inventory_audit,low,equipment,Refrigeration unit temperature fluctuation logged in dairy section,in_progress,loss_prevention,text-embedding-3-large,3072
+RPT-USR-100-010,USR-100,2026-06-20,safety_audit,high,staffing,Insufficient coverage during peak hours — checkout and service desk,resolved,store_manager,text-embedding-3-large,3072

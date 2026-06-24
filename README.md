@@ -27,6 +27,7 @@ cp .env.example .env   # add Azure OpenAI keys locally
 | `data/USA_100_Stores/curated/` | Stage 2 curated CSV outputs |
 | `notebooks/04_scrape_reviews_news_100_stores.ipynb` | Scrape 100-store reviews & news |
 | `notebooks/Retail_Store_DNA_Builder_Stage_2_Data_Curation.ipynb` | Curate data for StoreDNA |
+| `notebooks/Retail_Store_DNA_Builder_Stage_3_AI_Enrichment.ipynb` | AI enrichment (embeddings + GPT) |
 | `src/store_dna_curator.py` | Curation helpers |
 
 ## Branch
