@@ -1,0 +1,42 @@
+{
+  "outputs": {
+    "dim_store": 100,
+    "stg_reviews": 1318,
+    "stg_news": 1767,
+    "fact_operations_weekly": 5200,
+    "stg_reports": 891,
+    "stg_products": 1630
+  },
+  "quality_checks": {
+    "dim_store": {
+      "store_count": 100,
+      "only_in_scraped": 0,
+      "only_in_synthetic": 0,
+      "column_mismatches": []
+    },
+    "stg_reviews": {
+      "input_rows": 1319,
+      "output_rows": 1318,
+      "exact_duplicate_rows_removed": 1,
+      "orphan_store_ids": 0,
+      "note": "review_id reassigned per store+source; multiple rows per store kept when source or review_text differs"
+    },
+    "stg_news": {
+      "input_rows": 1767,
+      "output_rows": 1767,
+      "duplicate_headlines_removed": 0,
+      "orphan_store_ids": 0
+    },
+    "fact_operations_weekly": {
+      "output_rows": 5200,
+      "stores": 100
+    },
+    "stg_reports": {
+      "output_rows": 891
+    },
+    "stg_products": {
+      "output_rows": 1630,
+      "stores": 100
+    }
+  }
+}

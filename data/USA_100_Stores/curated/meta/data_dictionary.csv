@@ -1,0 +1,56 @@
+sheet,field_name,data_type,nullable,description,example,allowed_values,notes
+(workbook),—,—,—,Synthetic operations and product datasets for 100 US retail stores (USR-001–USR-100). Store IDs and names align with scraped_100_reviews_news1.xlsx. Ops and product tables are generated (not scraped); reviews/news remain in the companion scrape file.,100 stores × 52 weeks ops history,—,Regenerate via: python scripts/generate_scraped_100_synthetic.py
+store_catalog,store_id,string,No,Unique store identifier. Primary key for joining all tables.,USR-001,USR-001 … USR-100,Matches store_catalog in scraped_100_reviews_news1.xlsx
+store_catalog,retailer,string,No,Parent retail company or chain operating the store.,Walmart,"20 US retailers (Walmart, Target, Kroger, Costco, …)",Drives retailer-specific product templates and ops archetype
+store_catalog,banner,string,No,Customer-facing store banner or brand name shown on signage.,Walmart,Usually same as retailer; may differ in multi-banner chains,In this dataset banner equals retailer for all 100 stores
+store_catalog,store_name,string,No,Human-readable store label combining banner and city.,Walmart New York,Free text,Denormalized on other sheets for Excel readability
+store_catalog,city,string,No,US city where the store is located.,New York,50 US cities across the catalog,Used for local context in news/reviews companion file
+store_catalog,state,string (2-letter),No,US state abbreviation for the store location.,NY,Valid US state codes,—
+store_catalog,store_format,string (enum),No,"Physical store format class affecting size, assortment depth, and ops scale.",Supercenter,Supercenter | Neighborhood,"Supercenter → larger sq ft, more SKUs, higher labor hours"
+operations_weekly,store_id,string,No,Foreign key to store_catalog.store_id.,USR-001,USR-001 … USR-100,One row per store per week (52 weeks default)
+operations_weekly,week_end_date,date (ISO),No,Sunday date closing the retail week for which KPIs are reported.,2026-06-21,YYYY-MM-DD,52 consecutive weeks ending on or before generation date
+operations_weekly,labor_hours,float,No,Total store labor hours scheduled or worked in the week (all departments).,3439.0,Positive; scales with store sq ft and format,"Supercenters ~2,800–3,600; neighborhood stores lower"
+operations_weekly,shrink_pct,float (proportion),No,"Inventory shrink as a percentage of sales (theft, damage, admin error).",0.0236,Typically 0.005 – 0.035,Correlated with retailer archetype; higher in urban/express formats
+operations_weekly,oos_rate,float (proportion),No,Out-of-stock rate — share of tracked SKUs not available on shelf during the week.,0.0715,Typically 0.01 – 0.20,Lower is better; premium stores tend toward lower OOS
+operations_weekly,fulfillment_rate,float (proportion),No,Share of online pickup / delivery orders fulfilled completely and on time.,0.906,0.85 – 0.99,Applies to stores with online pickup capability
+operations_weekly,customer_complaints,integer,No,Count of formal customer complaints logged at the store during the week.,2,0 – 10+ (Poisson-distributed),Urban/high-traffic stores receive more complaints on average
+operations_weekly,retailer,string,No,Retail chain (denormalized).,Walmart,Same as store_catalog,—
+operations_weekly,store_name,string,No,Store name (denormalized).,Walmart New York,Free text,—
+operations_weekly,city,string,No,Store city (denormalized).,New York,Free text,—
+operations_weekly,state,string,No,Store state (denormalized).,NY,US state code,—
+operations_weekly,store_format,string,No,Store format (denormalized).,Supercenter,Supercenter | Neighborhood,—
+operational_reports,report_id,string,No,Unique identifier for each field report or audit record.,RPT-USR-001-003,RPT-{store_id}-{seq},Primary key for this table
+operational_reports,store_id,string,No,Foreign key to store_catalog.store_id.,USR-012,USR-001 … USR-100,~8–12 reports per store over 52 weeks (configurable)
+operational_reports,report_date,date (ISO),No,Date the report was filed or the audit was conducted.,2026-03-04,YYYY-MM-DD within ops history window,Unstructured text suitable for ops-modality embeddings
+operational_reports,report_type,string (enum),No,Type of operational review that produced the report.,mystery_shop,mystery_shop | safety_audit | inventory_audit | facilities | loss_prevention | district_visit,—
+operational_reports,severity,string (enum),No,Business impact severity of the finding.,high,low | medium | high,"Distribution: ~45% low, ~35% medium, ~20% high"
+operational_reports,issue_category,string (enum),No,Operational domain of the issue identified.,shrink,staffing | cleaning | equipment | inventory | safety | signage | planogram | shrink | customer_service,Correlated with store OOS/shrink KPIs
+operational_reports,description,string (text),No,Narrative description of the operational issue or audit finding.,Elevated shrink pattern detected near self-checkout area,Free text from controlled template set,Key field for NLP / GPT summarization in StoreDNA pipeline
+operational_reports,status,string (enum),No,Remediation workflow status of the reported issue.,in_progress,open | in_progress | resolved,—
+operational_reports,reported_by,string (enum),No,Role or function that submitted the report.,district_manager,district_manager | loss_prevention | mystery_shopper | store_manager,—
+operational_reports,retailer,string,No,Retail chain (denormalized).,Best Buy,Same as store_catalog,—
+operational_reports,store_name,string,No,Store name (denormalized).,Best Buy Fort Worth,Free text,—
+operational_reports,city,string,No,Store city (denormalized).,Fort Worth,Free text,—
+operational_reports,state,string,No,Store state (denormalized).,TX,US state code,—
+operational_reports,store_format,string,No,Store format (denormalized).,Neighborhood,Supercenter | Neighborhood,—
+product_descriptions,sku_id,string,No,Unique product identifier within the store assortment.,SKU-USR-001-006,SKU-{store_id}-{seq},Sample SKUs only (~10–23 per store); not full catalog
+product_descriptions,store_id,string,No,Foreign key to store_catalog.store_id.,USR-001,USR-001 … USR-100,Same store may appear on many SKU rows
+product_descriptions,retailer,string,No,Retail chain (denormalized); determines retailer-specific SKUs.,Walmart,Same as store_catalog,"Walmart gets Great Value/Marketside; Costco gets Kirkland, etc."
+product_descriptions,store_name,string,No,Store name (denormalized).,Walmart New York,Free text,—
+product_descriptions,city,string,No,Store city (denormalized).,New York,Free text,—
+product_descriptions,state,string,No,Store state (denormalized).,NY,US state code,—
+product_descriptions,category,string (enum),No,Merchandise category for the SKU.,Dairy,Grocery | Dairy | Snacks | Beverages | Health & Beauty | Household | Fresh Produce | Frozen,Maps to assortment_snapshot.category
+product_descriptions,product_name,string,No,Short commercial product title as shown on shelf tag or e-commerce.,Great Value Whole Milk Gallon,Free text,Includes retailer private-label names where applicable
+product_descriptions,description,string (text),No,Longer marketing or shelf-ready product description.,Store-brand vitamin D milk — everyday low price.,Free text,Primary text for product-modality embeddings
+product_descriptions,attributes,string (comma-separated tags),No,Product attribute tags describing positioning and diet/format flags.,"private_label,value",organic | premium | value | private_label | gluten_free | plant_based | seasonal (combinations),Pipe or comma separated in exports
+product_descriptions,brand_type,string (enum),No,Brand ownership classification for the SKU.,private_label,national | regional | private_label,private_label when attributes contain private_label tag
+product_descriptions,in_stock,boolean,No,Whether the SKU was in stock at snapshot time.,True,True | False,False probability tied to store oos_rate archetype
+product_descriptions,price_tier,string (enum),No,Relative price positioning band for the item.,value,value | mid | premium,Derived from attributes; drives unit_price range
+product_descriptions,unit_price,float (USD),No,Synthetic shelf price in US dollars for one pack/unit.,10.29,value: $1.49–12.99; mid: $4.99–24.99; premium: $8.99–89.99,Not scraped; generated for demo only
+product_descriptions,pack_size,string,No,Package size or count descriptor for the selling unit.,1 gallon,"e.g. 12 oz, 24 ct, 4-pack, 2-liter",—
+product_descriptions,aisle_zone,string,No,In-store location zone where the product is merchandised.,Aisle 1 — Cooler Wall,Category-derived zone labels,Maps category to typical store layout
+product_descriptions,facings,integer,No,Number of shelf facings allocated to this SKU at the store.,4,1 – 7 typical,Supercenters tend toward more facings
+product_descriptions,weekly_units_sold,integer,No,Synthetic average weekly unit sales velocity for the SKU at this store.,44,Positive integer,Value-tier items have higher velocity on average
+product_descriptions,margin_pct,float (proportion),No,Estimated gross margin percentage for the SKU (0–1).,0.21,0.08 – 0.42 typical,Private-label SKUs skew higher margin
+product_descriptions,upc,string (numeric),No,Synthetic Universal Product Code (barcode) for the item.,633300691806,12-digit numeric string,Not valid GS1 codes — demo only
+product_descriptions,vendor,string,No,Supplier or distribution center name fulfilling the SKU.,Walmart DC,Retailer DC for private label; national/regional vendors otherwise,—

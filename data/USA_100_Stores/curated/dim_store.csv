@@ -1,0 +1,101 @@
+store_id,retailer,banner,store_name,city,state,store_format
+USR-001,Walmart,Walmart,Walmart New York,New York,NY,Supercenter
+USR-002,Target,Target,Target Los Angeles,Los Angeles,CA,Neighborhood
+USR-003,Kroger,Kroger,Kroger Chicago,Chicago,IL,Neighborhood
+USR-004,Costco,Costco,Costco Houston,Houston,TX,Supercenter
+USR-005,Albertsons,Albertsons,Albertsons Phoenix,Phoenix,AZ,Neighborhood
+USR-006,Publix,Publix,Publix Philadelphia,Philadelphia,PA,Neighborhood
+USR-007,Whole Foods,Whole Foods,Whole Foods San Antonio,San Antonio,TX,Neighborhood
+USR-008,CVS,CVS,CVS San Diego,San Diego,CA,Neighborhood
+USR-009,Walgreens,Walgreens,Walgreens Dallas,Dallas,TX,Neighborhood
+USR-010,Home Depot,Home Depot,Home Depot Austin,Austin,TX,Neighborhood
+USR-011,Lowe's,Lowe's,Lowe's Jacksonville,Jacksonville,FL,Neighborhood
+USR-012,Best Buy,Best Buy,Best Buy Fort Worth,Fort Worth,TX,Neighborhood
+USR-013,Dollar General,Dollar General,Dollar General Columbus,Columbus,OH,Neighborhood
+USR-014,Sam's Club,Sam's Club,Sam's Club Charlotte,Charlotte,NC,Supercenter
+USR-015,Aldi,Aldi,Aldi Indianapolis,Indianapolis,IN,Neighborhood
+USR-016,H-E-B,H-E-B,H-E-B Seattle,Seattle,WA,Neighborhood
+USR-017,Meijer,Meijer,Meijer Denver,Denver,CO,Neighborhood
+USR-018,Safeway,Safeway,Safeway Boston,Boston,MA,Neighborhood
+USR-019,Sprouts,Sprouts,Sprouts Nashville,Nashville,TN,Neighborhood
+USR-020,Trader Joe's,Trader Joe's,Trader Joe's Detroit,Detroit,MI,Neighborhood
+USR-021,Walmart,Walmart,Walmart Portland,Portland,OR,Supercenter
+USR-022,Target,Target,Target Memphis,Memphis,TN,Neighborhood
+USR-023,Kroger,Kroger,Kroger Louisville,Louisville,KY,Neighborhood
+USR-024,Costco,Costco,Costco Baltimore,Baltimore,MD,Supercenter
+USR-025,Albertsons,Albertsons,Albertsons Milwaukee,Milwaukee,WI,Neighborhood
+USR-026,Publix,Publix,Publix Albuquerque,Albuquerque,NM,Neighborhood
+USR-027,Whole Foods,Whole Foods,Whole Foods Tucson,Tucson,AZ,Neighborhood
+USR-028,CVS,CVS,CVS Fresno,Fresno,CA,Neighborhood
+USR-029,Walgreens,Walgreens,Walgreens Sacramento,Sacramento,CA,Neighborhood
+USR-030,Home Depot,Home Depot,Home Depot Kansas City,Kansas City,MO,Neighborhood
+USR-031,Lowe's,Lowe's,Lowe's Atlanta,Atlanta,GA,Neighborhood
+USR-032,Best Buy,Best Buy,Best Buy Miami,Miami,FL,Neighborhood
+USR-033,Dollar General,Dollar General,Dollar General Tampa,Tampa,FL,Neighborhood
+USR-034,Sam's Club,Sam's Club,Sam's Club Orlando,Orlando,FL,Supercenter
+USR-035,Aldi,Aldi,Aldi Cleveland,Cleveland,OH,Neighborhood
+USR-036,H-E-B,H-E-B,H-E-B Pittsburgh,Pittsburgh,PA,Neighborhood
+USR-037,Meijer,Meijer,Meijer St. Louis,St. Louis,MO,Neighborhood
+USR-038,Safeway,Safeway,Safeway Cincinnati,Cincinnati,OH,Neighborhood
+USR-039,Sprouts,Sprouts,Sprouts Raleigh,Raleigh,NC,Neighborhood
+USR-040,Trader Joe's,Trader Joe's,Trader Joe's New Orleans,New Orleans,LA,Neighborhood
+USR-041,Walmart,Walmart,Walmart Salt Lake City,Salt Lake City,UT,Supercenter
+USR-042,Target,Target,Target Birmingham,Birmingham,AL,Neighborhood
+USR-043,Kroger,Kroger,Kroger Richmond,Richmond,VA,Neighborhood
+USR-044,Costco,Costco,Costco Boise,Boise,ID,Supercenter
+USR-045,Albertsons,Albertsons,Albertsons Omaha,Omaha,NE,Neighborhood
+USR-046,Publix,Publix,Publix Oklahoma City,Oklahoma City,OK,Neighborhood
+USR-047,Whole Foods,Whole Foods,Whole Foods Minneapolis,Minneapolis,MN,Neighborhood
+USR-048,CVS,CVS,CVS Buffalo,Buffalo,NY,Neighborhood
+USR-049,Walgreens,Walgreens,Walgreens Rochester,Rochester,NY,Neighborhood
+USR-050,Home Depot,Home Depot,Home Depot Spokane,Spokane,WA,Neighborhood
+USR-051,Lowe's,Lowe's,Lowe's Tulsa,Tulsa,OK,Neighborhood
+USR-052,Best Buy,Best Buy,Best Buy Honolulu,Honolulu,HI,Neighborhood
+USR-053,Dollar General,Dollar General,Dollar General New York,New York,NY,Neighborhood
+USR-054,Sam's Club,Sam's Club,Sam's Club Los Angeles,Los Angeles,CA,Supercenter
+USR-055,Aldi,Aldi,Aldi Chicago,Chicago,IL,Neighborhood
+USR-056,H-E-B,H-E-B,H-E-B Houston,Houston,TX,Neighborhood
+USR-057,Meijer,Meijer,Meijer Phoenix,Phoenix,AZ,Neighborhood
+USR-058,Safeway,Safeway,Safeway Philadelphia,Philadelphia,PA,Neighborhood
+USR-059,Sprouts,Sprouts,Sprouts San Antonio,San Antonio,TX,Neighborhood
+USR-060,Trader Joe's,Trader Joe's,Trader Joe's San Diego,San Diego,CA,Neighborhood
+USR-061,Walmart,Walmart,Walmart Dallas,Dallas,TX,Supercenter
+USR-062,Target,Target,Target Austin,Austin,TX,Neighborhood
+USR-063,Kroger,Kroger,Kroger Jacksonville,Jacksonville,FL,Neighborhood
+USR-064,Costco,Costco,Costco Fort Worth,Fort Worth,TX,Supercenter
+USR-065,Albertsons,Albertsons,Albertsons Columbus,Columbus,OH,Neighborhood
+USR-066,Publix,Publix,Publix Charlotte,Charlotte,NC,Neighborhood
+USR-067,Whole Foods,Whole Foods,Whole Foods Indianapolis,Indianapolis,IN,Neighborhood
+USR-068,CVS,CVS,CVS Seattle,Seattle,WA,Neighborhood
+USR-069,Walgreens,Walgreens,Walgreens Denver,Denver,CO,Neighborhood
+USR-070,Home Depot,Home Depot,Home Depot Boston,Boston,MA,Neighborhood
+USR-071,Lowe's,Lowe's,Lowe's Nashville,Nashville,TN,Neighborhood
+USR-072,Best Buy,Best Buy,Best Buy Detroit,Detroit,MI,Neighborhood
+USR-073,Dollar General,Dollar General,Dollar General Portland,Portland,OR,Neighborhood
+USR-074,Sam's Club,Sam's Club,Sam's Club Memphis,Memphis,TN,Supercenter
+USR-075,Aldi,Aldi,Aldi Louisville,Louisville,KY,Neighborhood
+USR-076,H-E-B,H-E-B,H-E-B Baltimore,Baltimore,MD,Neighborhood
+USR-077,Meijer,Meijer,Meijer Milwaukee,Milwaukee,WI,Neighborhood
+USR-078,Safeway,Safeway,Safeway Albuquerque,Albuquerque,NM,Neighborhood
+USR-079,Sprouts,Sprouts,Sprouts Tucson,Tucson,AZ,Neighborhood
+USR-080,Trader Joe's,Trader Joe's,Trader Joe's Fresno,Fresno,CA,Neighborhood
+USR-081,Walmart,Walmart,Walmart Sacramento,Sacramento,CA,Supercenter
+USR-082,Target,Target,Target Kansas City,Kansas City,MO,Neighborhood
+USR-083,Kroger,Kroger,Kroger Atlanta,Atlanta,GA,Neighborhood
+USR-084,Costco,Costco,Costco Miami,Miami,FL,Supercenter
+USR-085,Albertsons,Albertsons,Albertsons Tampa,Tampa,FL,Neighborhood
+USR-086,Publix,Publix,Publix Orlando,Orlando,FL,Neighborhood
+USR-087,Whole Foods,Whole Foods,Whole Foods Cleveland,Cleveland,OH,Neighborhood
+USR-088,CVS,CVS,CVS Pittsburgh,Pittsburgh,PA,Neighborhood
+USR-089,Walgreens,Walgreens,Walgreens St. Louis,St. Louis,MO,Neighborhood
+USR-090,Home Depot,Home Depot,Home Depot Cincinnati,Cincinnati,OH,Neighborhood
+USR-091,Lowe's,Lowe's,Lowe's Raleigh,Raleigh,NC,Neighborhood
+USR-092,Best Buy,Best Buy,Best Buy New Orleans,New Orleans,LA,Neighborhood
+USR-093,Dollar General,Dollar General,Dollar General Salt Lake City,Salt Lake City,UT,Neighborhood
+USR-094,Sam's Club,Sam's Club,Sam's Club Birmingham,Birmingham,AL,Supercenter
+USR-095,Aldi,Aldi,Aldi Richmond,Richmond,VA,Neighborhood
+USR-096,H-E-B,H-E-B,H-E-B Boise,Boise,ID,Neighborhood
+USR-097,Meijer,Meijer,Meijer Omaha,Omaha,NE,Neighborhood
+USR-098,Safeway,Safeway,Safeway Oklahoma City,Oklahoma City,OK,Neighborhood
+USR-099,Sprouts,Sprouts,Sprouts Minneapolis,Minneapolis,MN,Neighborhood
+USR-100,Trader Joe's,Trader Joe's,Trader Joe's Buffalo,Buffalo,NY,Neighborhood
