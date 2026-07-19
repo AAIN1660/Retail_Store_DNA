@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "pairs": {
+    "USR-001__USR-061": {
+      "context_hash": "4847d7d5ba21326e",
+      "overview": "Similar ops profile; clear coaching gaps",
+      "learnings": [
+        {
+          "kpi_id": "fulfillment",
+          "label": "Fulfillment rate",
+          "leader_store_id": "USR-061",
+          "follower_store_id": "USR-001",
+          "leader_store_name": "Walmart Dallas",
+          "follower_store_name": "Walmart New York",
+          "headline": "Adopt Dallas fulfillment best practices",
+          "bullets": [
+            "Dallas leads by 0.2 pts (93.3% vs 93.1%)",
+            "Review Dallas' order management and accuracy processes"
+          ],
+          "summary": "Dallas leads by 0.2 pts (93.3% vs 93.1%) \u00b7 Review Dallas' order management and accuracy processes"
+        },
+        {
+          "kpi_id": "oos",
+          "label": "Out-of-stock rate",
+          "leader_store_id": "USR-061",
+          "follower_store_id": "USR-001",
+          "leader_store_name": "Walmart Dallas",
+          "follower_store_name": "Walmart New York",
+          "headline": "Reduce out-of-stock issues like Dallas",
+          "bullets": [
+            "Dallas outperforms by 0.9 pts (6.8% vs 7.7%)",
+            "Audit replenishment timing and shelf stocking practices"
+          ],
+          "summary": "Dallas outperforms by 0.9 pts (6.8% vs 7.7%) \u00b7 Audit replenishment timing and shelf stocking practices"
+        },
+        {
+          "kpi_id": "shrink",
+          "label": "Shrink rate",
+          "leader_store_id": "USR-001",
+          "follower_store_id": "USR-061",
+          "leader_store_name": "Walmart New York",
+          "follower_store_name": "Walmart Dallas",
+          "headline": "Apply NYC shrink control strategies",
+          "bullets": [
+            "NYC leads by 0.1 pts (2.1% vs 2.2%)",
+            "Focus on loss prevention during peak hours"
+          ],
+          "summary": "NYC leads by 0.1 pts (2.1% vs 2.2%) \u00b7 Focus on loss prevention during peak hours"
+        },
+        {
+          "kpi_id": "sentiment",
+          "label": "Positive reviews",
+          "leader_store_id": "USR-001",
+          "follower_store_id": "USR-061",
+          "leader_store_name": "Walmart New York",
+          "follower_store_name": "Walmart Dallas",
+          "headline": "Boost Dallas positive reviews like NYC",
+          "bullets": [
+            "NYC leads by 9.6 pts (15.8% vs 6.2%)",
+            "Improve service and communication per review themes"
+          ],
+          "summary": "NYC leads by 9.6 pts (15.8% vs 6.2%) \u00b7 Improve service and communication per review themes"
+        },
+        {
+          "kpi_id": "complaints",
+          "label": "Customer complaints",
+          "leader_store_id": "USR-001",
+          "follower_store_id": "USR-061",
+          "leader_store_name": "Walmart New York",
+          "follower_store_name": "Walmart Dallas",
+          "headline": "Reduce complaints using NYC strategies",
+          "bullets": [
+            "NYC outperforms by 2 complaints (3 vs 5)",
+            "Address order management and refund issues proactively"
+          ],
+          "summary": "NYC outperforms by 2 complaints (3 vs 5) \u00b7 Address order management and refund issues proactively"
+        }
+      ],
+      "source": "azure_openai",
+      "similarity": 0.9256454706192017,
+      "updated_at": 1784443049.0998428
+    },
+    "USR-009__USR-069": {
+      "context_hash": "cb01a8f5e919987c",
+      "overview": "Similar ops profile; clear coaching gaps",
+      "learnings": [
+        {
+          "kpi_id": "fulfillment",
+          "label": "Fulfillment rate",
+          "leader_store_id": "USR-069",
+          "follower_store_id": "USR-009",
+          "leader_store_name": "Walgreens Denver",
+          "follower_store_name": "Walgreens Dallas",
+          "headline": "Copy Denver fulfillment habits",
+          "bullets": [
+            "Denver ahead by 1.8 pts (96.5% vs 94.7%)",
+            "Adopt Denver's order accuracy process steps"
+          ],
+          "summary": "Denver ahead by 1.8 pts (96.5% vs 94.7%) \u00b7 Adopt Denver's order accuracy process steps"
+        },
+        {
+          "kpi_id": "oos",
+          "label": "Out-of-stock rate",
+          "leader_store_id": "USR-009",
+          "follower_store_id": "USR-069",
+          "leader_store_name": "Walgreens Dallas",
+          "follower_store_name": "Walgreens Denver",
+          "headline": "Reduce Denver out-of-stock rate",
+          "bullets": [
+            "Dallas leads by 0.8 pts (4.9% vs 5.7%)",
+            "Use Dallas shelf-check frequency model"
+          ],
+          "summary": "Dallas leads by 0.8 pts (4.9% vs 5.7%) \u00b7 Use Dallas shelf-check frequency model"
+        },
+        {
+          "kpi_id": "shrink",
+          "label": "Shrink rate",
+          "leader_store_id": "USR-069",
+          "follower_store_id": "USR-009",
+          "leader_store_name": "Walgreens Denver",
+          "follower_store_name": "Walgreens Dallas",
+          "headline": "Lower Dallas shrink rate",
+          "bullets": [
+            "Denver ahead by 0.4 pts (2.7% vs 3.1%)",
+            "Audit Dallas inventory using Denver's shrink tracker"
+          ],
+          "summary": "Denver ahead by 0.4 pts (2.7% vs 3.1%) \u00b7 Audit Dallas inventory using Denver's shrink tracker"
+        },
+        {
+          "kpi_id": "complaints",
+          "label": "Customer complaints",
+          "leader_store_id": "USR-009",
+          "follower_store_id": "USR-069",
+          "leader_store_name": "Walgreens Dallas",
+          "follower_store_name": "Walgreens Denver",
+          "headline": "Cut Denver customer complaints",
+          "bullets": [
+            "Dallas leads by 10 complaints (7 vs 17)",
+            "Train Denver staff on Dallas service tips"
+          ],
+          "summary": "Dallas leads by 10 complaints (7 vs 17) \u00b7 Train Denver staff on Dallas service tips"
+        }
+      ],
+      "source": "azure_openai",
+      "similarity": 0.9165341258049011,
+      "updated_at": 1784444962.136933
+    },
+    "USR-037__USR-077": {
+      "context_hash": "c424f3832893c622",
+      "overview": "Similar ops profile; clear coaching gaps",
+      "learnings": [
+        {
+          "kpi_id": "fulfillment",
+          "label": "Fulfillment rate",
+          "leader_store_id": "USR-037",
+          "follower_store_id": "USR-077",
+          "leader_store_name": "Meijer St. Louis",
+          "follower_store_name": "Meijer Milwaukee",
+          "headline": "Boost fulfillment with St. Louis practices",
+          "bullets": [
+            "St. Louis leads by 3.8 pts (96.0% vs 92.2%)",
+            "Audit Milwaukee's order accuracy using St. Louis checklist"
+          ],
+          "summary": "St. Louis leads by 3.8 pts (96.0% vs 92.2%) \u00b7 Audit Milwaukee's order accuracy using St. Louis checklist"
+        },
+        {
+          "kpi_id": "oos",
+          "label": "Out-of-stock rate",
+          "leader_store_id": "USR-077",
+          "follower_store_id": "USR-037",
+          "leader_store_name": "Meijer Milwaukee",
+          "follower_store_name": "Meijer St. Louis",
+          "headline": "Adopt Milwaukee's out-of-stock strategies",
+          "bullets": [
+            "Milwaukee outperforms by 0.4 pts (5.8% vs 6.2%)",
+            "Review Milwaukee's stock replenishment timing and vendor coordination"
+          ],
+          "summary": "Milwaukee outperforms by 0.4 pts (5.8% vs 6.2%) \u00b7 Review Milwaukee's stock replenishment timing and vendor coordination"
+        },
+        {
+          "kpi_id": "shrink",
+          "label": "Shrink rate",
+          "leader_store_id": "USR-077",
+          "follower_store_id": "USR-037",
+          "leader_store_name": "Meijer Milwaukee",
+          "follower_store_name": "Meijer St. Louis",
+          "headline": "Apply Milwaukee's shrink control tactics",
+          "bullets": [
+            "Milwaukee leads by 0.1 pts (2.4% vs 2.5%)",
+            "Analyze Milwaukee's loss prevention training and inventory audits"
+          ],
+          "summary": "Milwaukee leads by 0.1 pts (2.4% vs 2.5%) \u00b7 Analyze Milwaukee's loss prevention training and inventory audits"
+        }
+      ],
+      "source": "azure_openai",
+      "similarity": 0.9205235242843628,
+      "updated_at": 1784445247.5665464
+    }
+  }
+}

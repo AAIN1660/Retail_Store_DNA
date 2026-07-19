@@ -1,0 +1,15 @@
+{
+  "search_index": "store-dna-store-vectors",
+  "vector_dimensions": 2048,
+  "projection": {
+    "projection_applied": true,
+    "source_dim": 15365,
+    "target_dim": 2048,
+    "method": "gaussian_random_projection",
+    "random_state": 42
+  },
+  "stores_loaded": 100,
+  "documents_uploaded": 100,
+  "index_document_count": 100,
+  "elapsed_sec": 15.4
+}

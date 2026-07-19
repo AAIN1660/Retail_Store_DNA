@@ -1,0 +1,52 @@
+{
+  "fusion_method": "weighted_late_fusion_concat",
+  "l2_normalize_inputs": true,
+  "l2_normalize_output": true,
+  "weights": {
+    "reviews": 1.0,
+    "news": 1.0,
+    "reports": 1.0,
+    "products": 1.0,
+    "ops_weekly": 1.0,
+    "structured_ops": 0.5
+  },
+  "store_count": 100,
+  "store_dna_dim": 15365,
+  "modalities": [
+    {
+      "modality": "reviews",
+      "vector_dim": 3072,
+      "weight": 1.0
+    },
+    {
+      "modality": "news",
+      "vector_dim": 3072,
+      "weight": 1.0
+    },
+    {
+      "modality": "reports",
+      "vector_dim": 3072,
+      "weight": 1.0
+    },
+    {
+      "modality": "products",
+      "vector_dim": 3072,
+      "weight": 1.0
+    },
+    {
+      "modality": "ops_weekly",
+      "vector_dim": 3072,
+      "weight": 1.0
+    },
+    {
+      "modality": "structured_ops",
+      "vector_dim": 5,
+      "weight": 0.5
+    }
+  ],
+  "outputs": {
+    "vectors": "store_dna_vectors.npz",
+    "index": "store_dna_index.csv"
+  },
+  "elapsed_sec": 0.9
+}

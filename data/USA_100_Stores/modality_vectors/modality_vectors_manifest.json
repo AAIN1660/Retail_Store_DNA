@@ -1,0 +1,51 @@
+{
+  "search_index": "store-dna-embeddings",
+  "pool_method": "mean",
+  "l2_normalize_pooled": true,
+  "modalities": {
+    "reviews": {
+      "rows_pooled": 1318,
+      "stores_with_vector": 100,
+      "vector_dim": 3072,
+      "file": "reviews_vectors.npz"
+    },
+    "news": {
+      "rows_pooled": 1767,
+      "stores_with_vector": 100,
+      "vector_dim": 3072,
+      "file": "news_vectors.npz"
+    },
+    "reports": {
+      "rows_pooled": 891,
+      "stores_with_vector": 100,
+      "vector_dim": 3072,
+      "file": "reports_vectors.npz"
+    },
+    "products": {
+      "rows_pooled": 1630,
+      "stores_with_vector": 100,
+      "vector_dim": 3072,
+      "file": "products_vectors.npz"
+    },
+    "ops_weekly": {
+      "rows_pooled": 5200,
+      "stores_with_vector": 100,
+      "vector_dim": 3072,
+      "file": "ops_weekly_vectors.npz"
+    },
+    "structured_ops": {
+      "kpi_columns": [
+        "labor_hours",
+        "shrink_pct",
+        "oos_rate",
+        "fulfillment_rate",
+        "customer_complaints"
+      ],
+      "stores_with_vector": 100,
+      "vector_dim": 5,
+      "file": "structured_ops_vectors.npz"
+    }
+  },
+  "store_count": 100,
+  "elapsed_sec": 282.6
+}

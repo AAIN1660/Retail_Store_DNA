@@ -82,6 +82,7 @@ def ensure_embedding_index(config: SearchIndexConfig) -> None:
             name="content_vector",
             type=SearchFieldDataType.Collection(SearchFieldDataType.Single),
             searchable=True,
+            retrievable=True,
             vector_search_dimensions=config.vector_dimensions,
             vector_search_profile_name="embedding-profile",
         ),
@@ -158,3 +159,48 @@ def get_index_document_count(config: SearchIndexConfig) -> int:
         credential=AzureKeyCredential(config.api_key),
     )
     return search_client.get_document_count()
+
+
+def fetch_documents_by_modality(
+    config: SearchIndexConfig,
+    modality: str,
+    select: list[str] | None = None,
+    page_size: int = 500,
+    max_retries: int = 5,
+) -> list[dict]:
+    """Return all index documents for a modality (paginated, with retries)."""
+    search_client = SearchClient(
+        endpoint=config.endpoint,
+        index_name=config.index_name,
+        credential=AzureKeyCredential(config.api_key),
+    )
+    fields = select or ["store_id", "content_vector"]
+    documents: list[dict] = []
+    skip = 0
+    while True:
+        for attempt in range(max_retries):
+            try:
+                page = list(
+                    search_client.search(
+                        search_text="*",
+                        filter=f"modality eq '{modality}'",
+                        select=fields,
+                        skip=skip,
+                        top=page_size,
+                    )
+                )
+                break
+            except Exception as exc:
+                if attempt + 1 >= max_retries:
+                    raise
+                wait = 2 ** attempt
+                print(f"[Search] {modality} skip={skip}: retry {attempt + 1}/{max_retries} ({exc})")
+                time.sleep(wait)
+        if not page:
+            break
+        documents.extend(page)
+        if len(page) < page_size:
+            break
+        skip += page_size
+        time.sleep(0.1)
+    return documents

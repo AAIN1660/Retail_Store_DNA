@@ -1,0 +1,166 @@
+{
+  "index_name": "store-dna-hybrid-vectors",
+  "fusion_method": "hybrid_head_plus_projected_modality_tail",
+  "head_dim": 23,
+  "tail_dim": 2025,
+  "hybrid_dim": 2048,
+  "head_slot_schema": [
+    {
+      "name": "fulfillment_rate",
+      "modality": "structured_ops",
+      "description": "4-week avg fulfillment rate"
+    },
+    {
+      "name": "oos_rate",
+      "modality": "structured_ops",
+      "description": "4-week avg out-of-stock rate"
+    },
+    {
+      "name": "shrink_pct",
+      "modality": "structured_ops",
+      "description": "4-week avg shrink %"
+    },
+    {
+      "name": "labor_hours_4w",
+      "modality": "structured_ops",
+      "description": "4-week avg labor hours"
+    },
+    {
+      "name": "complaints_4w",
+      "modality": "structured_ops",
+      "description": "4-week sum of complaints"
+    },
+    {
+      "name": "positive_review_pct",
+      "modality": "reviews",
+      "description": "Share of positive reviews"
+    },
+    {
+      "name": "negative_review_pct",
+      "modality": "reviews",
+      "description": "Share of negative reviews"
+    },
+    {
+      "name": "review_count",
+      "modality": "reviews",
+      "description": "Total review documents"
+    },
+    {
+      "name": "news_count",
+      "modality": "news",
+      "description": "Total news documents"
+    },
+    {
+      "name": "local_news_count",
+      "modality": "news",
+      "description": "Local news story count"
+    },
+    {
+      "name": "competitor_mention_count",
+      "modality": "news",
+      "description": "Competitor mention count"
+    },
+    {
+      "name": "negative_news_count",
+      "modality": "news",
+      "description": "Negative-impact news count"
+    },
+    {
+      "name": "product_count",
+      "modality": "products",
+      "description": "Product / SKU row count"
+    },
+    {
+      "name": "product_in_stock_pct",
+      "modality": "products",
+      "description": "Share of products in stock"
+    },
+    {
+      "name": "report_count",
+      "modality": "reports",
+      "description": "Internal report count"
+    },
+    {
+      "name": "high_severity_report_count",
+      "modality": "reports",
+      "description": "High-severity report count"
+    },
+    {
+      "name": "ops_weeks_count",
+      "modality": "ops_weekly",
+      "description": "Ops weeks available"
+    },
+    {
+      "name": "reviews_present",
+      "modality": "reviews",
+      "description": "1 if reviews modality vector non-zero"
+    },
+    {
+      "name": "news_present",
+      "modality": "news",
+      "description": "1 if news modality vector non-zero"
+    },
+    {
+      "name": "reports_present",
+      "modality": "reports",
+      "description": "1 if reports modality vector non-zero"
+    },
+    {
+      "name": "products_present",
+      "modality": "products",
+      "description": "1 if products modality vector non-zero"
+    },
+    {
+      "name": "ops_weekly_present",
+      "modality": "ops_weekly",
+      "description": "1 if ops_weekly modality vector non-zero"
+    },
+    {
+      "name": "structured_ops_present",
+      "modality": "structured_ops",
+      "description": "1 if structured_ops vector non-zero"
+    }
+  ],
+  "tail_projection": {
+    "method": "gaussian_random_projection",
+    "source_dim": 15365,
+    "target_dim": 2025,
+    "modalities": [
+      {
+        "modality": "reviews",
+        "vector_dim": 3072
+      },
+      {
+        "modality": "news",
+        "vector_dim": 3072
+      },
+      {
+        "modality": "reports",
+        "vector_dim": 3072
+      },
+      {
+        "modality": "products",
+        "vector_dim": 3072
+      },
+      {
+        "modality": "ops_weekly",
+        "vector_dim": 3072
+      },
+      {
+        "modality": "structured_ops",
+        "vector_dim": 5
+      }
+    ],
+    "include_structured_ops": true
+  },
+  "stores": 100,
+  "documents_uploaded": 100,
+  "index_document_count": 100,
+  "outputs": {
+    "vectors": "store_dna_hybrid_vectors.npz",
+    "head_kpis": "hybrid_head_kpis.csv",
+    "schema": "hybrid_head_slot_schema.json"
+  },
+  "note": "Separate from Stage 6 index store-dna-store-vectors. Extract KPIs from vector[0:head_dim] or named Azure fields.",
+  "elapsed_sec": 10.8
+}

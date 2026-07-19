@@ -1,0 +1,101 @@
+﻿id,store_id,retailer,banner,store_name,city,state,store_format,fusion_method,store_dna_dim,store_dna_norm
+store_dna_USR-011,USR-011,Lowe's,Lowe's,Lowe's Jacksonville,Jacksonville,FL,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-012,USR-012,Best Buy,Best Buy,Best Buy Fort Worth,Fort Worth,TX,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-016,USR-016,H-E-B,H-E-B,H-E-B Seattle,Seattle,WA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-018,USR-018,Safeway,Safeway,Safeway Boston,Boston,MA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-044,USR-044,Costco,Costco,Costco Boise,Boise,ID,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-072,USR-072,Best Buy,Best Buy,Best Buy Detroit,Detroit,MI,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-078,USR-078,Safeway,Safeway,Safeway Albuquerque,Albuquerque,NM,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-081,USR-081,Walmart,Walmart,Walmart Sacramento,Sacramento,CA,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-088,USR-088,CVS,CVS,CVS Pittsburgh,Pittsburgh,PA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-089,USR-089,Walgreens,Walgreens,Walgreens St. Louis,St. Louis,MO,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-091,USR-091,Lowe's,Lowe's,Lowe's Raleigh,Raleigh,NC,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-093,USR-093,Dollar General,Dollar General,Dollar General Salt Lake City,Salt Lake City,UT,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-095,USR-095,Aldi,Aldi,Aldi Richmond,Richmond,VA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-004,USR-004,Costco,Costco,Costco Houston,Houston,TX,Supercenter,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-022,USR-022,Target,Target,Target Memphis,Memphis,TN,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-029,USR-029,Walgreens,Walgreens,Walgreens Sacramento,Sacramento,CA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-037,USR-037,Meijer,Meijer,Meijer St. Louis,St. Louis,MO,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-038,USR-038,Safeway,Safeway,Safeway Cincinnati,Cincinnati,OH,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-073,USR-073,Dollar General,Dollar General,Dollar General Portland,Portland,OR,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-008,USR-008,CVS,CVS,CVS San Diego,San Diego,CA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-009,USR-009,Walgreens,Walgreens,Walgreens Dallas,Dallas,TX,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-042,USR-042,Target,Target,Target Birmingham,Birmingham,AL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-052,USR-052,Best Buy,Best Buy,Best Buy Honolulu,Honolulu,HI,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-066,USR-066,Publix,Publix,Publix Charlotte,Charlotte,NC,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-076,USR-076,H-E-B,H-E-B,H-E-B Baltimore,Baltimore,MD,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-082,USR-082,Target,Target,Target Kansas City,Kansas City,MO,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-002,USR-002,Target,Target,Target Los Angeles,Los Angeles,CA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-014,USR-014,Sam's Club,Sam's Club,Sam's Club Charlotte,Charlotte,NC,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-021,USR-021,Walmart,Walmart,Walmart Portland,Portland,OR,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-023,USR-023,Kroger,Kroger,Kroger Louisville,Louisville,KY,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-033,USR-033,Dollar General,Dollar General,Dollar General Tampa,Tampa,FL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-040,USR-040,Trader Joe's,Trader Joe's,Trader Joe's New Orleans,New Orleans,LA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-058,USR-058,Safeway,Safeway,Safeway Philadelphia,Philadelphia,PA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-064,USR-064,Costco,Costco,Costco Fort Worth,Fort Worth,TX,Supercenter,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-070,USR-070,Home Depot,Home Depot,Home Depot Boston,Boston,MA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-079,USR-079,Sprouts,Sprouts,Sprouts Tucson,Tucson,AZ,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-080,USR-080,Trader Joe's,Trader Joe's,Trader Joe's Fresno,Fresno,CA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-092,USR-092,Best Buy,Best Buy,Best Buy New Orleans,New Orleans,LA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-096,USR-096,H-E-B,H-E-B,H-E-B Boise,Boise,ID,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-099,USR-099,Sprouts,Sprouts,Sprouts Minneapolis,Minneapolis,MN,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-030,USR-030,Home Depot,Home Depot,Home Depot Kansas City,Kansas City,MO,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-041,USR-041,Walmart,Walmart,Walmart Salt Lake City,Salt Lake City,UT,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-050,USR-050,Home Depot,Home Depot,Home Depot Spokane,Spokane,WA,Neighborhood,weighted_late_fusion_concat,2048,0.9999998807907104
+store_dna_USR-055,USR-055,Aldi,Aldi,Aldi Chicago,Chicago,IL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-062,USR-062,Target,Target,Target Austin,Austin,TX,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-063,USR-063,Kroger,Kroger,Kroger Jacksonville,Jacksonville,FL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-074,USR-074,Sam's Club,Sam's Club,Sam's Club Memphis,Memphis,TN,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-013,USR-013,Dollar General,Dollar General,Dollar General Columbus,Columbus,OH,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-019,USR-019,Sprouts,Sprouts,Sprouts Nashville,Nashville,TN,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-031,USR-031,Lowe's,Lowe's,Lowe's Atlanta,Atlanta,GA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-046,USR-046,Publix,Publix,Publix Oklahoma City,Oklahoma City,OK,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-054,USR-054,Sam's Club,Sam's Club,Sam's Club Los Angeles,Los Angeles,CA,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-087,USR-087,Whole Foods,Whole Foods,Whole Foods Cleveland,Cleveland,OH,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-003,USR-003,Kroger,Kroger,Kroger Chicago,Chicago,IL,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-010,USR-010,Home Depot,Home Depot,Home Depot Austin,Austin,TX,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-015,USR-015,Aldi,Aldi,Aldi Indianapolis,Indianapolis,IN,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-020,USR-020,Trader Joe's,Trader Joe's,Trader Joe's Detroit,Detroit,MI,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-057,USR-057,Meijer,Meijer,Meijer Phoenix,Phoenix,AZ,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-060,USR-060,Trader Joe's,Trader Joe's,Trader Joe's San Diego,San Diego,CA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-067,USR-067,Whole Foods,Whole Foods,Whole Foods Indianapolis,Indianapolis,IN,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-075,USR-075,Aldi,Aldi,Aldi Louisville,Louisville,KY,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-084,USR-084,Costco,Costco,Costco Miami,Miami,FL,Supercenter,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-094,USR-094,Sam's Club,Sam's Club,Sam's Club Birmingham,Birmingham,AL,Supercenter,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-001,USR-001,Walmart,Walmart,Walmart New York,New York,NY,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-006,USR-006,Publix,Publix,Publix Philadelphia,Philadelphia,PA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-024,USR-024,Costco,Costco,Costco Baltimore,Baltimore,MD,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-025,USR-025,Albertsons,Albertsons,Albertsons Milwaukee,Milwaukee,WI,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-028,USR-028,CVS,CVS,CVS Fresno,Fresno,CA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-045,USR-045,Albertsons,Albertsons,Albertsons Omaha,Omaha,NE,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-047,USR-047,Whole Foods,Whole Foods,Whole Foods Minneapolis,Minneapolis,MN,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-056,USR-056,H-E-B,H-E-B,H-E-B Houston,Houston,TX,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-065,USR-065,Albertsons,Albertsons,Albertsons Columbus,Columbus,OH,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-083,USR-083,Kroger,Kroger,Kroger Atlanta,Atlanta,GA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-090,USR-090,Home Depot,Home Depot,Home Depot Cincinnati,Cincinnati,OH,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-017,USR-017,Meijer,Meijer,Meijer Denver,Denver,CO,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-027,USR-027,Whole Foods,Whole Foods,Whole Foods Tucson,Tucson,AZ,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-034,USR-034,Sam's Club,Sam's Club,Sam's Club Orlando,Orlando,FL,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-059,USR-059,Sprouts,Sprouts,Sprouts San Antonio,San Antonio,TX,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-061,USR-061,Walmart,Walmart,Walmart Dallas,Dallas,TX,Supercenter,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-085,USR-085,Albertsons,Albertsons,Albertsons Tampa,Tampa,FL,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-005,USR-005,Albertsons,Albertsons,Albertsons Phoenix,Phoenix,AZ,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-043,USR-043,Kroger,Kroger,Kroger Richmond,Richmond,VA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-048,USR-048,CVS,CVS,CVS Buffalo,Buffalo,NY,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-069,USR-069,Walgreens,Walgreens,Walgreens Denver,Denver,CO,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-007,USR-007,Whole Foods,Whole Foods,Whole Foods San Antonio,San Antonio,TX,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-026,USR-026,Publix,Publix,Publix Albuquerque,Albuquerque,NM,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-036,USR-036,H-E-B,H-E-B,H-E-B Pittsburgh,Pittsburgh,PA,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-039,USR-039,Sprouts,Sprouts,Sprouts Raleigh,Raleigh,NC,Neighborhood,weighted_late_fusion_concat,2048,0.9999998807907104
+store_dna_USR-049,USR-049,Walgreens,Walgreens,Walgreens Rochester,Rochester,NY,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-053,USR-053,Dollar General,Dollar General,Dollar General New York,New York,NY,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-097,USR-097,Meijer,Meijer,Meijer Omaha,Omaha,NE,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-098,USR-098,Safeway,Safeway,Safeway Oklahoma City,Oklahoma City,OK,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-032,USR-032,Best Buy,Best Buy,Best Buy Miami,Miami,FL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-035,USR-035,Aldi,Aldi,Aldi Cleveland,Cleveland,OH,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-051,USR-051,Lowe's,Lowe's,Lowe's Tulsa,Tulsa,OK,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-068,USR-068,CVS,CVS,CVS Seattle,Seattle,WA,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-071,USR-071,Lowe's,Lowe's,Lowe's Nashville,Nashville,TN,Neighborhood,weighted_late_fusion_concat,2048,0.9999999403953552
+store_dna_USR-077,USR-077,Meijer,Meijer,Meijer Milwaukee,Milwaukee,WI,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-086,USR-086,Publix,Publix,Publix Orlando,Orlando,FL,Neighborhood,weighted_late_fusion_concat,2048,1.0
+store_dna_USR-100,USR-100,Trader Joe's,Trader Joe's,Trader Joe's Buffalo,Buffalo,NY,Neighborhood,weighted_late_fusion_concat,2048,1.0
